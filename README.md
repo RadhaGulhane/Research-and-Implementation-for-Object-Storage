@@ -7,9 +7,19 @@ This project includes analysis and implementation of the following data structur
 - B+tree
 - B<sup>ε</sup>-tree
 
+## Node structure
+### B tree
+<!-- <img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" align="right"/>  -->
+<img alt="B tree node structure" src="./B tree/diagrams/B_tree_node_structure.PNG"/>
+
+<img alt="B+ tree node structure" src="./B+ tree/diagrams/B_plus_tree_node_structure.PNG"/>
+
+<img alt="B<sup>ε</sup>-tree node structure" src="./B-epsilon tree/diagrams/B_epsilon_tree_node_structure.PNG" />
+
+
 ### Time Complexity:
 | Data Structure     | Write                             |  Read             |
-| ------------------ | ----------------------------------|-------------------|
+| :----------------: | :--------------------------------:|:-----------------:|
 | B tree             | log<sub>B</sub>N                  |log<sub>B</sub>N   |
 | B+ tree            | log<sub>B</sub>N                  |log<sub>B</sub>N   |
 | B<sup>ε</sup> tree | log<sub>B</sub>N/εB<sup>1-ε</sup> |log<sub>B</sub>N/ε |
